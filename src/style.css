@@ -1,0 +1,32 @@
+ h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat Alternates', sans-serif;    
+ }
+
+ .overview {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #252930;
+    color: #a13670;
+    padding: 40px;
+}
+
+.weather-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ #date,
+ #current-time {
+    font-size: 24px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 300;
+ }
+ 
+ #current-time {
+    margin-bottom: 40px;
+ }

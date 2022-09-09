@@ -86,4 +86,14 @@ button.btn:hover {
     padding-left: 41px;
     margin-bottom: 15px;
 }
+
+.footer a {
+    color: #9a77cf;
+    text-decoration: none;
+}
+
+.footer {
+    color: #ffffff;   
+}
+
    

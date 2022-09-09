@@ -1,9 +1,28 @@
+body {
+    background-color: #282C34;
+}
+
  h1 {
     text-align: center;
     font-size: 32px;
     font-family: 'Montserrat Alternates', sans-serif;    
- }
+ } 
 
+button.btn {
+    background-color: #9a77cf;
+    border-color: #9a77cf;
+}
+  
+button.btn:hover {
+    background-color: #543884;
+    border-color: #543884;
+    transition: ease-in-out 250ms;
+  }
+
+ ul {
+    list-style: none;
+    color: #9B77CF;
+}
  .overview {
     max-width: 600px;
     margin: 0 auto;
@@ -16,7 +35,28 @@
 
 .weather-wrapper {
     max-width: 600px;
+    margin: 0 auto;    
+}
+.img-fluid {
+    max-width: 100%;
+    height: 160px; 
+    text-align: center;
+    display: block;
     margin: 0 auto;
+}
+   
+.weather-temperature {
+    text-align: center;
+    color: #9B77CF;
+    line-height: normal;  
+}
+.units {
+    position: relative;
+    top: -30px;
+}
+
+.units a {
+    padding: 5px 10px;
 }
 
  #date,
@@ -26,7 +66,24 @@
     line-height: normal;
     font-weight: 300;
  }
- 
+
  #current-time {
     margin-bottom: 40px;
  }
+
+ #temperature {
+    font-size: 70px;
+    width: 270px;
+    font-family: 'Montserrat Alternates', sans-serif;  
+    text-align: center; 
+ }
+
+ #dissription-weather {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    display: block; 
+    padding-left: 41px;
+    margin-bottom: 15px;
+}
+   

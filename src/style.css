@@ -85,6 +85,7 @@ button.btn:hover {
     display: block; 
     padding-left: 41px;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .footer a {

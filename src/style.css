@@ -52,15 +52,32 @@ li {
     text-align: center;
     color: #9B77CF;
     padding: 47px 0; 
+   
+}
+
+.weather-temperature .active {
+    color: #9B77CF;
+    cursor: default;
+   
+
+
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
+
 }
 
 .units {
     position: relative;
     top: -30px;
+    /* text-decoration: none; */
+    font-size: 20px;
 }
 
 .units a {
     padding: 5px 10px;
+    text-decoration: none;
 }
 .row {
     margin: -33px;

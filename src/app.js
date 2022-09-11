@@ -45,9 +45,15 @@ function displayTemperature(responce) {
   document.querySelector("#feels-temperature").innerHTML = Math.round(responce.data.main.feels_like);
   document.querySelector("#date").innerHTML = formatDate(responce.data.dt * 1000);
   document.querySelector("#current-time").innerHTML = formatTime(responce.data.dt * 1000);
-}
+  document.querySelector("#icon").setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${responce.data.weather[0].icon}@2x.png`
+  ); 
+  document.querySelector("#icon").setAttribute("alt", responce.data.weather[0].description)
+  }
 
 let apiKey = "c3717712699a76ea2802ba838ac61fc8";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
+let city = "Kyiv";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);

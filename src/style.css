@@ -22,6 +22,11 @@ button.btn:hover {
  ul {
     list-style: none;
     color: #9B77CF;
+    text-align: left;
+}
+li {
+    font-weight: lighter;
+    font-size: 18px;
 }
  .overview {
     max-width: 600px;
@@ -38,18 +43,17 @@ button.btn:hover {
     margin: 0 auto;    
 }
 .img-fluid {
-    max-width: 100%;
-    height: 160px; 
-    text-align: center;
+    width: 240%;
+    padding: 10px 10px 0 10px;
     display: block;
-    margin: 0 auto;
 }
    
 .weather-temperature {
     text-align: center;
     color: #9B77CF;
-    line-height: normal;  
+    padding: 47px 0; 
 }
+
 .units {
     position: relative;
     top: -30px;
@@ -57,6 +61,16 @@ button.btn:hover {
 
 .units a {
     padding: 5px 10px;
+}
+.row {
+    margin: -33px;
+}
+
+.weather-discription {
+    background-color: #99547C;
+    border-color: #99547C;
+    border-radius: 30px;
+    margin: 0 0 0 15px;
 }
 
  #date,
@@ -79,13 +93,12 @@ button.btn:hover {
  }
 
  #dissription-weather {
-    text-align: left;
-    font-size: 25px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
     font-family: 'Montserrat Alternates', sans-serif; 
-    display: block; 
-    padding-left: 41px;
-    margin-bottom: 15px;
-    text-transform: capitalize;
+    padding-bottom: 40px;
+    color: #D685B1;  
 }
 
 .footer a {

@@ -19,7 +19,7 @@ button.btn:hover {
     transition: ease-in-out 250ms;
   }
 
- ul {
+  .discription-temperature li {
     list-style: none;
     color: #9B77CF;
     text-align: left;
@@ -79,8 +79,9 @@ li {
     padding: 5px 10px;
     text-decoration: none;
 }
-.row {
+.info-weather {
     margin: -33px;
+    padding-top: 15px;
 }
 
 .weather-discription {
@@ -129,8 +130,30 @@ li {
 
 .search-city {
     margin-top: 15px;
+
 }
  .city-info {
-    padding-top: 50px;
+    padding-top: 15px;
+    margin-bottom: 15px;
  }
    
+.forecast-day {
+    color: #ffa45e;
+    margin-top: 70px;
+    text-align: center;
+    background-color: #785842;
+    border-color: #785842;
+    border-radius: 20px;
+    margin: 70px 5px 5px 0;
+    
+}
+
+.forecast-temperature {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.weather-forecast-date {
+    margin-top: 10px;
+}

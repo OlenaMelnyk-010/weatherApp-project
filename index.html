@@ -41,14 +41,14 @@
                </div>
               </div> 
             </form>
-          </div>
-        <div class="city-info">
-          <h1 id="city"></h1>   
-          <div id="date"></div>
-          <div id="current-time"></div> 
-          <br />
-        </div> 
-          <div class="row">
+            <div class="city-info">
+              <h1 id="city"></h1>   
+              <div id="date"></div>
+              <div id="current-time"></div> 
+              
+            </div> 
+          </div> 
+          <div class="row info-weather">
             <div class="col-6">
               <div class="weather-discription">
                 <img src="" 
@@ -68,18 +68,36 @@
                     id="celsius-link"> ̊C</a>
                   | 
                  <a href="#" 
-                   
                     id="fahrenheit-link"> ̊F</a>
                 </span>
-                <ul>
+                <ul class="discription-temperature">
                   <li><i class="fa-solid fa-temperature-three-quarters"></i> Feels like: <span id="feels-temperature"></span> ̊C</li>
                   <li><i class="fa-solid fa-droplet"></i> Humidity: <span id="humidity"></span>%</li>
                   <li><i class="fa-solid fa-wind"></i> Wind speed: <span id="wind"></span> m/h</li>
                 </ul> 
-            </div>
-            </div>  
-          </div>
-        </div>
+             </div>
+            </div> 
+          </div> 
+            <div class="weather-forecast">
+              <div class="row">
+                <div class="col-2 forecast-day">
+                  <div class="weather-forecast-date">
+                    Tue
+                  </div>
+                  <img src="http://openweathermap.org/img/wn/04d@2x.png"
+                        width="75"
+                  >
+                 <div class="weather-forecast-temperature">
+                    <ul class="forecast-temperature">
+                      <li class="weather-forecast-temperature-max"><i class="fa-solid fa-temperature-three-quarters"></i><span> 12 ̊ C</span></li>
+                      <li class="weather-forecast-temperature-min"><i class="fa-solid fa-temperature-three-quarters"></i> 18  ̊ C</li>
+                    </ul>
+                  </div>                  
+                </div>
+               </div>  
+              </div>       
+           </div>
+    
         <small class="footer">
           <a
             href="https://github.com/OlenaMelnyk-010/weatherApp-project.git"
@@ -88,7 +106,7 @@
           >
           by Olena Melnyk
         </small>
-      </div>  
+      </div> 
     </div>
     <script src="src/app.js"></script>
   </body>

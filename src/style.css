@@ -35,7 +35,9 @@ li {
     border-radius: 20px;
     background-color: #252930;
     color: #a13670;
-    padding: 40px;
+    padding: 40px 10px 30px 10px;
+
+   
 }
 
 .weather-wrapper {
@@ -80,8 +82,8 @@ li {
     text-decoration: none;
 }
 .info-weather {
-    margin: -33px;
-    padding-top: 15px;
+    
+    padding: 15px 0 0 20px;
 }
 
 .weather-discription {
@@ -119,6 +121,10 @@ li {
     color: #D685B1;  
 }
 
+#search-form {
+   margin: 0 30px 0 30px;
+}
+
 .footer a {
     color: #9a77cf;
     text-decoration: none;
@@ -130,6 +136,7 @@ li {
 
 .search-city {
     margin-top: 15px;
+    text-align: center;
 
 }
  .city-info {
@@ -139,12 +146,12 @@ li {
    
 .forecast-day {
     color: #ffa45e;
-    margin-top: 70px;
     text-align: center;
     background-color: #785842;
     border-color: #785842;
-    border-radius: 20px;
-    margin: 70px 5px 5px 0;
+    border-radius: 15px;
+    margin: 10px 10px 5px 0;
+    padding: 0 0;
     
 }
 
@@ -156,4 +163,11 @@ li {
 
 .weather-forecast-date {
     margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+     
+}
+
+.weather-forecast {
+    margin: 30px -10px 0 0px;
 }
